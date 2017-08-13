@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CarBrandServlet</servlet-name>
+    <servlet-class>com.dfbz.servlet.CarBrandServlet</servlet-class>
+  </servlet>
+  
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CarKindServlet</servlet-name>
+    <servlet-class>com.dfbz.servlet.CarKindServlet</servlet-class>
+  </servlet>
+     <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CarArticleServlet</servlet-name>
+    <servlet-class>com.dfbz.servlet.CarArticleServlet</servlet-class>
+  </servlet> 
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CarInfoServlet</servlet-name>
+    <servlet-class>com.dfbz.servlet.CarInfoServlet</servlet-class>
+  </servlet>
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserCarServlet</servlet-name>
+    <servlet-class>com.dfbz.servlet.UserCarServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userServlet</servlet-name>
+    <servlet-class>com.dfbz.servlet.userServlet</servlet-class>
+  </servlet>
+  
+  
+  
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CarVideoServlet</servlet-name>
+    <servlet-class>com.dfbz.servlet.CarVideoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CarViewPictureServlet</servlet-name>
+    <servlet-class>com.dfbz.servlet.CarViewPictureServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CarReviewServlet</servlet-name>
+    <servlet-class>com.dfbz.servlet.CarReviewServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TopLinePageServlet</servlet-name>
+    <servlet-class>com.dfbz.servlet.TopLinePageServlet</servlet-class>
+  </servlet>
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BuycarServlet</servlet-name>
+    <servlet-class>com.dfbz.servlet.BuycarServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>CarBrandServlet</servlet-name>
+    <url-pattern>/CarBrandServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CarVideoServlet</servlet-name>
+    <url-pattern>/CarVideoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CarViewPictureServlet</servlet-name>
+    <url-pattern>/CarViewPictureServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CarReviewServlet</servlet-name>
+    <url-pattern>/CarReviewServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TopLinePageServlet</servlet-name>
+    <url-pattern>/TopLinePageServlet</url-pattern>
+  </servlet-mapping>	
+    <servlet-mapping>
+    <servlet-name>CarArticleServlet</servlet-name>
+    <url-pattern>/CarArticleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CarInfoServlet</servlet-name>
+    <url-pattern>/CarInfoServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>CarKindServlet</servlet-name>
+    <url-pattern>/CarKindServlet</url-pattern>
+  </servlet-mapping>
+      <servlet-mapping>
+    <servlet-name>BuycarServlet</servlet-name>
+    <url-pattern>/BuycarServlet</url-pattern>
+  </servlet-mapping>
+  
+        <servlet-mapping>
+    <servlet-name>UserCarServlet</servlet-name>
+    <url-pattern>/UserCarServlet</url-pattern>
+  </servlet-mapping>
+  
+          <servlet-mapping>
+    <servlet-name>userServlet</servlet-name>
+    <url-pattern>/userServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

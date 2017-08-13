@@ -1,0 +1,33 @@
+<!--pages/car_index/car_index.wxml-->
+<view class="top">
+    <image class="img" src="{{logo}}"></image>
+    <text class="text1">{{name}}</text>
+    
+</view>
+
+<view class="row" wx:for="{{s}}">
+    <block wx:if="{{item.flag==0}}">
+    <view class="line">
+    <text class="text2">{{item.car_kind}}</text>
+     <view class="text3" >共有<text style="color:red;">{{item.count}}</text>款车系</view>  
+  </view>
+    </block>
+   
+    <block wx:if="{{item.flag==1}}">
+     <view class="line2" bindtap="jumptoCarInfo" id="{{item.list.car_name}}" data-value="{{item.list.price_range}}"  data-key="{{item.list.brand_name}}" data-size="{{item.list.size}}">
+     <image class="img_2" src="{{item.list.picture}}"></image>
+    <text class="font1">{{item.list.car_name}}</text> 
+    <text class="font2" key="{{item.list.brand_name}}" value="{{item.list.price_range}}">
+    <block wx:if="{{item.list.price_range!=Null}}">
+    {{item.list.price_range}}
+    </block>
+    <block wx:if="{{item.list.price_range==Null}}">
+    已停售
+    </block>
+    </text>
+    <text class="font3" size="{{item.list.size}}">{{item.list.size}}</text>
+     </view>
+
+    </block>
+    
+</view>
