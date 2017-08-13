@@ -1,0 +1,149 @@
+/* pages/superDriver_video/superDriver_video.wxss */
+
+.page_title{
+  margin-top: 5px;
+  height: 30px;
+  line-height:30px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.v-meaasge{
+  width: 730rpx;
+  height: 20px;
+  margin: 5px;
+  float: left;
+  margin-bottom: 50px;
+  margin-left: 20rpx;
+}
+.v-icon{
+  width: 20px;
+  height: 20px;
+  line-height:30px; 
+  float: left;
+  
+  margin-left: 20rpx;
+  border-radius:10px;
+  
+}
+.v-author{
+  line-height:20px; 
+  font-size: 12px;
+  float: left;
+  color: gray;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+.v-date{
+  line-height:20px;
+  font-size: 12px;
+  float: left;
+  color: gray;
+}
+.page_video{
+  width: 710rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 20px;
+
+}
+.video{
+  width: 710rpx;
+}
+.fengexian{
+  margin-top: 20px;
+  height: 20rpx;
+  width: 750rpx;
+  background-color: lightgray;
+  
+  opacity: 0.3;
+}
+.text_1{
+  margin-top: 20px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  color: gray;
+  text-align: center;
+}
+.review_title{
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  color: gray;
+  margin-left: 20rpx;
+  margin-top:5px; 
+}
+.fengexian_2{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  height: 2px;
+  width: 710rpx;
+  background-color: lightgray;
+  
+  opacity: 0.3;
+}
+.user_info{
+  height: 100rpx;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  line-height: 90rpx;
+}
+.user_icon{
+  float: left;
+  height: 70rpx;
+  width: 70rpx;
+  line-height: 70rpx;
+  border-radius:35px;
+}
+.user_info2{
+  margin-left: 25rpx;
+  float: left;
+  width: 500rpx;
+
+}
+.user_name{
+  line-height:20px; 
+  font-size: 12px;
+  color: black;
+  margin-right: 12px;
+}
+
+
+.user_date{
+  line-height:20px; 
+  font-size: 12px;
+  color: gray;
+  margin-right: 5px;
+  float: left;
+}
+.user_position{
+  line-height:20px; 
+  font-size: 12px;
+  color: gray;
+  margin-right: 12px;  
+  float: left;
+}
+.user_id{
+  line-height:20px; 
+  font-size: 12px;
+  color: gray;
+  margin-right: 20rpx;
+  float: right;
+}
+.user_review{
+  line-height: 23px;
+  color: black;
+  font-size: 15px;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.fengexian_3{
+  
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 20px;
+  height: 2px;
+  width: 710rpx;
+  background-color: lightgray;
+  opacity: 0.3;
+}

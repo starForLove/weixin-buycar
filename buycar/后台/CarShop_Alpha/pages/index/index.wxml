@@ -1,0 +1,35 @@
+<scroll-view  scroll-y style="height:100%;" scroll-with-animation="true" scroll-top="{{toTop}}" scroll-into-view="{{toView}}" >
+   <view class="font">热门品牌</view>
+        <view class="top">
+                <view wx:for="{{logo_list}}" class="row"  id="{{item.brand_name}}" data-value="{{item.logo}}" bindtap="jumpToCar_index">
+                
+                    <image class="img" value="{{item.logo}}" src="{{item.logo}}"></image>
+                    <text class="font_1">{{item.brand_name}}</text>
+                </view>
+        </view>
+        <view class="zimu">
+        <view bindtap="jumpToTop">*</view>
+                <view wx:for="{{aplha_list}}" data-hi="{{item}}" bindtap="tapName">{{item}}</view>
+        </view> 
+        <view class="row_3"  wx:for="{{list}}">
+        <block wx:if="{{item.flag==0}}" >
+                <view id="{{item.aplha_code}}"class="font_2">
+                        {{item.aplha_code}}
+                </view>
+        </block> 
+        <block wx:if="{{item.flag==1}}">  
+                <view  id="{{item.list.brand_name}}" data-value="{{item.list.logo}}" class="logo"  bindtap="jumpToCar_index">
+                        <image style="margin-left:20px;" class="img_2" src="{{item.list.logo}}" value="{{item.list.logo}}"></image>
+                        <text class="font_3">{{item.list.brand_name}}</text>
+                </view>
+         </block> 
+       
+        </view>
+
+
+</scroll-view>
+
+
+
+
+  

@@ -1,0 +1,45 @@
+<!--pages/superDriver_video/superDriver_video.wxml-->
+
+<view  class="page_title">{{title}}</view>
+  <view class="v-message">
+    <image class="v-icon" mode="aspectFit" src="{{icon_url}}"></image>
+    <view class="v-author">{{author}}</view>
+    <view class="v-date">{{date}}</view>
+    <view style="clear:both"></view>
+  </view>
+<view class="page_video">
+
+<view class="wxParse">
+
+<import src="../../wxParse/wxParse.wxml"/>
+<template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+
+</view>
+
+</view>
+<view class="text_1">本文来自互联网，不代表汽车头条的观点和立场</view>
+<!-- 评论-->
+<view class="fengexian"></view>
+
+<view class="review_title">最热评论</view>
+<view class="fengexian_2"></view>
+<view class="review_block" wx:for="{{objlist}}">
+
+  <view class="user_info">
+    <image class="user_icon" mode="aspectFit" src="{{item.icon_url}}"></image>
+    <view class="user_info2">
+    <view class="user_name">{{item.username}}</view>
+    <view class="user_info3">
+      <view class="user_date">{{item.reviewdate}}</view>    
+      <view class="user_position">{{item.position}}</view>
+    </view>
+    </view>
+    <view class="user_id">{{item.id}}楼</view>
+  </view>
+  <view class="user_review">{{item.review}}</view>
+  <view class="fengexian_3"></view>
+</view>
+
+
+
+
